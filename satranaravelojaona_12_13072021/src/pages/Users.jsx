@@ -4,7 +4,7 @@ import proteines from "../assets/proteines.svg";
 import glucides from "../assets/glucides.svg";
 import lipides from "../assets/lipides.svg";
 
-import WeightChart from "../chart/wheight";
+import WeightChart from "../chart/Weight";
 import RadarActivity from "../chart/Radar";
 import ObjectifChart from "../chart/Objectifs";
 import ScoreChart from "../chart/Score";
