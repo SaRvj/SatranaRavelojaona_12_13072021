@@ -1,7 +1,7 @@
 import React from "react";
 import { useState,useEffect } from "react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend, Tooltip } from "recharts";
-import { getActivity } from "../tools/Tools";
+import { getActivity } from "../utils/Tools";
 import PropTypes from 'prop-types' ;
 
 /**
@@ -19,11 +19,12 @@ export default function WeightChart(props) {
       async function getSession() {
        const response = await getActivity(props.id)
        setData(response.sessions)
+       console.log(response);
       }
 
       getSession()
 
-    }, []) 
+    }, [props.id]) 
 
     if (!data) return (
       <div>

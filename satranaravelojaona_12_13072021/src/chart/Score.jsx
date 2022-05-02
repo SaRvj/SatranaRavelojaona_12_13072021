@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import { Cell, Pie, PieChart, Sector } from "recharts";
-import { findID } from "../tools/Tools";
+import { findID } from "../utils/Tools";
 import PropTypes from 'prop-types' ;
 
 /**
@@ -33,7 +33,7 @@ export default function Score(props){
     getScore();
 
 
-  },[])
+  },[props.id])
 
   const renderActiveShape = (props) => {
     const { cx, cy, innerRadius, outerRadius, startAngle, endAngle, fill, payload } = props;

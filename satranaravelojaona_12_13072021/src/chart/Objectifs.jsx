@@ -1,8 +1,8 @@
 import React from "react";
-import "../charts/charts.css"
+import "../chart/charts.css"
 import { useState,useEffect } from "react";
 import {LineChart,Line,XAxis,Tooltip,Legend} from "recharts";
-import { getAverageSession } from "../tools/Tools";
+import { getAverageSession } from "../utils/Tools";
 import PropTypes from 'prop-types' ;
 
 /**
@@ -37,7 +37,7 @@ export default function ObjectifChart(props) {
 
     getSession();
 
-  }, []) 
+  }, [props.id]) 
 
     if (!data) return (
       <div>

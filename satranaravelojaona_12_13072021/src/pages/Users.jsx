@@ -4,14 +4,14 @@ import proteines from "../assets/proteines.svg";
 import glucides from "../assets/glucides.svg";
 import lipides from "../assets/lipides.svg";
 
-import WeightChart from "../charts/Weight";
-import RadarActivity from "../charts/Radar";
-import ObjectifChart from "../charts/Objectifs";
-import ScoreChart from "../charts/Score";
-import Stats from "../components/Stats";
+import WeightChart from "../chart/wheight";
+import RadarActivity from "../chart/Radar";
+import ObjectifChart from "../chart/Objectifs";
+import ScoreChart from "../chart/Score";
+import Stats from "../components/Statistiques";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { findID } from "../tools/Tools";
+import { findID } from "../utils/Tools";
 import PropTypes from 'prop-types' ;
 
 export default function User() {
@@ -27,7 +27,7 @@ export default function User() {
     }
     getUser()
     
-  }, [] )
+  }, [id] )
 
 
   return (

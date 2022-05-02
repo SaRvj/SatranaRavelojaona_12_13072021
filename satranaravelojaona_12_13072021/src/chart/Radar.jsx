@@ -2,7 +2,7 @@ import React from "react";
 import {Radar, RadarChart, PolarGrid, PolarAngleAxis} from "recharts";
 
 import { useState,useEffect } from "react";
-import { getPerf } from "../tools/Tools";
+import { getPerf } from "../utils/Tools";
 import PropTypes from 'prop-types' ;
 
 /**
@@ -13,7 +13,7 @@ import PropTypes from 'prop-types' ;
 export default function RadarActivity({id}) {
 
   const[data,setData] = useState([{name:'', value:0}])
-
+  console.log("salut");
   useEffect(() => {
     async function getRadar(){
 
@@ -40,7 +40,7 @@ export default function RadarActivity({id}) {
     
     getRadar();
 
-  },[])
+  },[id])
 
   
     return (
