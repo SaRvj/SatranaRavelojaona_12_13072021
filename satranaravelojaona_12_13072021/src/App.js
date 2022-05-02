@@ -1,17 +1,28 @@
-import React from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Aside from "./components/Aside";
-import Header from "./components/Header";
-import Home from "./pages/Home";
+import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-export default function App() {
+import Header from "../src/components/Header" ;
+import Aside from "../src/components/Aside" ;
+
+
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
+
       <Header />
       <Aside />
+      
       <Routes>
-        <Route path="/" element={<Home />} />
+
+       
+
+        
+          
       </Routes>
-    </BrowserRouter>
+
+    </Router>
   );
 }
+
+export default App;

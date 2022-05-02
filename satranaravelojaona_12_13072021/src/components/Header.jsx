@@ -1,4 +1,4 @@
-import "../style/header.css"
+import "../styles/header.css"
 import LogoSportSee from "../assets/logoSportSee.svg"
 
 export default function Header() {
