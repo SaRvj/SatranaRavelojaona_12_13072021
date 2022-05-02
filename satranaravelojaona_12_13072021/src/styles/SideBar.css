@@ -1,0 +1,31 @@
+.aside {
+    background: #020203;
+    color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.aside-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aside-list img {
+    margin-top: 20px;
+}
+
+.aside p {
+    position: absolute;
+    bottom: 120px;
+    width: 200px;
+    transform: rotate(-90deg);
+}
