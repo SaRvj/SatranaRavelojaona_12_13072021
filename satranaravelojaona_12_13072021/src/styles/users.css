@@ -1,0 +1,110 @@
+.userpage {
+    margin: 60px 200px;
+}
+/* A 1440 par 900 = taille maquette 
+
+.userpage {
+    margin: 60px 170px;
+}
+.user-symbols {
+    position: absolute;
+    right: 90px;
+}
+
+*/
+.user-infos {
+    margin-bottom: 70px;
+}
+.user-infos h1{
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+.user-infos h2{
+    font-size: 18px;
+}
+
+.user-infos span {
+    color: #E60000;
+}
+
+.user-graphics{
+    width: 830px;
+    height: 320px;
+}
+.user-charts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 840px;
+}
+
+
+/* Stats */ 
+
+.stats {
+    width: 250px;
+    height: 125px;
+    background-color: #FBFBFB;
+    margin-bottom: 36.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+p.stats-value {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+p.stats-name {
+    font-weight: 500;
+    font-size: 17px;
+}
+.stats-icon {
+    margin-right: 25px;
+}
+
+
+@media only screen and (min-width: 1750px) {
+    
+    .user-symbols {
+        position: absolute;
+        right: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 635px;
+    }
+
+}
+@media only screen and (min-width: 1502px) {
+    
+    .user-symbols {
+        position: absolute;
+        right: 190px; 
+    }
+}
+
+@media only screen and (min-width: 1402px) {
+    
+    .user-symbols {
+        position: absolute;
+        right: 70px; 
+    }
+}
+
+@media only screen and (max-width: 1401px) {
+    
+    .user-symbols {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .userpage {
+        margin: 60px 200px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    
+    .userpage {
+        margin: 60px 130px;
+    }
+}
