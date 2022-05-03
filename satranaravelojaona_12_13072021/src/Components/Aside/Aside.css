@@ -1,0 +1,38 @@
+.SideBar {
+  background-color: black;
+  width: 4.5em;
+  height: 110vh;
+  position: absolute;
+  top: 6em;
+}
+
+.SideBarMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9em 0em;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 3.5em;
+  padding: 0em;
+  margin: 0.5em 0em;
+  cursor: pointer;
+}
+
+.SideBarIcon {
+  object-fit: contain;
+  width: 100%;
+}
+
+.copyrightLabel {
+  color: white;
+  position: absolute;
+  left: 0;
+  transform: rotate(270deg);
+  white-space: nowrap;
+  margin-left: -4em;
+  margin-top: 1em;
+}

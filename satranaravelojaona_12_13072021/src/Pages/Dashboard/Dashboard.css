@@ -1,0 +1,45 @@
+.Dashboard {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-left: 9.5em;
+  margin-right: 4em;
+}
+
+.Dashboard h1 {
+  margin-bottom: 0.2em;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.Dashboard h1 span {
+  color: red;
+}
+
+.Dashboard h2 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.Activities {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.ChartsWrapper {
+  width: 78%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.KeyDataWrapper {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

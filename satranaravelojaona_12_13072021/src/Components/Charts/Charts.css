@@ -1,0 +1,41 @@
+.ResponsiveWeightBar {
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+.ResponsiveLineChart {
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+
+.ResponsiveRadarChart {
+  background-color: #282d30;
+  border-radius: 5px;
+}
+
+.ResponsivePieChart {
+  background-color: #fbfbfb;
+  border-radius: 5px;
+}
+
+.ChartLineToolTip {
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.WeightToolTip {
+  background-color: #e60000;
+  color: white;
+  padding: 1em;
+  font-weight: 400;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 4em;
+  justify-content: space-between;
+}

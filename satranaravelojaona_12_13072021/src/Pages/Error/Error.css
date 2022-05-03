@@ -1,0 +1,31 @@
+.Error {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Error img {
+  margin-bottom: 2em;
+  width: 20em;
+  height: auto;
+  margin-left: -1em;
+}
+
+.Error button {
+  background-color: #4d5559;
+  color: white;
+  width: auto;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.Error button:hover {
+  background-color: lightgrey;
+}
