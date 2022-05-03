@@ -13,7 +13,7 @@ import Aside from "../../Components/Aside/Aside"
 
 import KeyData from "../../Components/KeyData/KeyData"
 import Weight from "../../Components/Charts/Weight"
-import ChartLine from "../../Components/Charts/ChartLine"
+import ChartLine from "../../Components/Charts/Objectifs"
 import ChartRadar from "../../Components/Charts/ChartRadar"
 import ChartPie from "../../Components/Charts/ChartPie"
 
