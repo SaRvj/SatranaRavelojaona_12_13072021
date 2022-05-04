@@ -48,7 +48,7 @@ const Weight = (props) => {
   }
 
   return (
-    <ResponsiveContainer height={270} className="ResponsiveBarChart">
+    <ResponsiveContainer height={270} className="ResponsiveWeight">
       <BarChart data={props.data} margin={{ top: 20, left: 30, bottom: 10 }}>
         <text x="20" y="23" dominantBaseline="hanging" fontSize="16">
           Activité quotidienne

@@ -51,7 +51,7 @@ const Radarr = (props) => {
     <ResponsiveContainer
       height={230}
       width="30%"
-      className="ResponsiveRadarChart"
+      className="ResponsiveRadarr"
     >
       <RadarChart
         outerRadius="55%"

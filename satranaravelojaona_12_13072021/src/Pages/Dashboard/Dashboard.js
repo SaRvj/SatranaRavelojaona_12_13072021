@@ -13,9 +13,9 @@ import Aside from "../../Components/Aside/Aside"
 
 import KeyData from "../../Components/KeyData/KeyData"
 import Weight from "../../Components/Charts/Weight"
-import ChartLine from "../../Components/Charts/Objectifs"
-import ChartRadar from "../../Components/Charts/ChartRadar"
-import ChartPie from "../../Components/Charts/ChartPie"
+import Objectifs from "../../Components/Charts/Objectifs"
+import Radarr from "../../Components/Charts/Radarr"
+import Kpi from "../../Components/Charts/Kpi"
 
 import urldatamock from "../../Utils/urldatamock"
 import urldataAPI from "../../Utils/urldataAPI"
@@ -61,9 +61,9 @@ const Dashboard = () => {
         <section className="Activities">
           <div className="ChartsWrapper">
             <Weight data={activity.sessions} />
-            <ChartLine data={sessions.sessions} />
-            <ChartRadar data={performance.data} />
-            <ChartPie data={mainData.score} />
+            <Objectifs data={sessions.sessions} />
+            <Radarr data={performance.data} />
+            <Kpi data={mainData.score} />
           </div>
           <div className="KeyDataWrapper">
             <KeyData

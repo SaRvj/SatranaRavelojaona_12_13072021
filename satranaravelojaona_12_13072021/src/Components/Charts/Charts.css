@@ -1,25 +1,25 @@
-.ResponsiveWeightBar {
+.ResponsiveWeight {
   background-color: #fbfbfb;
   border-radius: 5px;
   margin-bottom: 1.5em;
 }
 
-.ResponsiveLineChart {
+.ResponsiveObjectifs {
   background-color: #ff0000;
   border-radius: 5px;
 }
 
-.ResponsiveRadarChart {
+.ResponsiveRadarr {
   background-color: #282d30;
   border-radius: 5px;
 }
 
-.ResponsivePieChart {
+.ResponsiveKpi {
   background-color: #fbfbfb;
   border-radius: 5px;
 }
 
-.ChartLineToolTip {
+.ObjectifsToolTip {
   background-color: white;
   color: black;
   padding: 0.5em;

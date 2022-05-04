@@ -71,7 +71,7 @@ const Objectifs = (props) => {
     <ResponsiveContainer
       height={230}
       width="30%"
-      className="ResponsiveLineChart"
+      className="ResponsiveObjectifs"
     >
       <LineChart data={props.data}>
         <text x="20" y="30" fontSize="14" fill="white" opacity={0.5}>

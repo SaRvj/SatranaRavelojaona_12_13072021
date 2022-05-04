@@ -20,7 +20,7 @@ const Kpi = (props) => {
     <ResponsiveContainer
       height={230}
       width="30%"
-      className="ResponsivePieChart"
+      className="ResponsiveKpi"
     >
       <PieChart>
         <circle fill="white" cy="50%" cx="50%" r="70" />
