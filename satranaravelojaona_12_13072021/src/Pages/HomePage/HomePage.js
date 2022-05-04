@@ -1,7 +1,7 @@
 import "./HomePage.css"
 import { Link } from "react-router-dom"
 import Logo from "../../Assets/logoSportSee.png"
-import ContextButton from "../../Components/ContextButton/ContextButton"
+import SwitchButton from "../../Components/SwitchButton/SwitchButton"
 
 /**
  * Home selection for user 12 or user 18 and Api or Mock
@@ -19,7 +19,7 @@ const HomePage = () => {
           <button>Utilisateur 18</button>
         </Link>
       </div>
-      <ContextButton />
+      <SwitchButton />
     </main>
   )
 }
