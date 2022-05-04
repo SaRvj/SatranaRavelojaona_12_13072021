@@ -1,33 +1,24 @@
-import './App.css';
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { FetchProvider } from "./Utils/Switch/fetchSwitch"
 
-import HomePage from "./pages/HomePage"; 
-import Header from "../src/components/Header" ;
-import Aside from "../src/components/Aside" ;
-import Error from "./pages/Error"
-import User from './pages/Users';
-
+import Dashboard from "./Pages/Dashboard/Dashboard"
+import HomePage from "./Pages/HomePage/HomePage"
+import Error from "./Pages/Error/Error"
 
 function App() {
   return (
-    <Router>
-
-      <Header />
-      <Aside />
-      
-      <Routes>
-
-        <Route exact path="/" element={<HomePage />}/>
-        
-        <Route path='/user/:id' element={<User />} />
-
-        <Route path="/*" element={<Error />}/>
-          
-      </Routes>
-
-    </Router>
-  );
+    <div className="App">
+      <FetchProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="*" element={<HomePage />}></Route>
+            <Route path="/dashboard/:idURL" element={<Dashboard />}></Route>
+            <Route path="/error" element={<Error />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </FetchProvider>
+    </div>
+  )
 }
 
-export default App;
+export default App
