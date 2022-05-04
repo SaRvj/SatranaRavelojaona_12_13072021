@@ -1,7 +1,7 @@
 import "./Dashboard.css"
 import { useParams } from "react-router-dom"
 import { useContext } from "react"
-import { fetchContext } from "../../Utils/Context/fetchContext"
+import { fetchSwitch } from "../../Utils/Switch/fetchSwitch"
 
 import caloriesIcon from "../../Assets/KeyData/calories.png"
 import carbsIcon from "../../Assets/KeyData/carbs.png"
@@ -30,7 +30,7 @@ const Dashboard = () => {
   let loadingComplete = true
 
   // Checks if the fetch should be made from API or Mock and paste the correct paths
-  const { fetch } = useContext(fetchContext)
+  const { fetch } = useContext(fetchSwitch)
   const url = fetch === "Mock" ? urldatamock : urldataAPI
 
   const mainData = Apifetch(url.urlMainData(idURL))
