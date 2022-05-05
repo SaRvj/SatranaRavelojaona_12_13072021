@@ -1,4 +1,4 @@
-import "./KeyData.css"
+import "../../styles/KeyData.css"
 import PropTypes from "prop-types"
 
 /**

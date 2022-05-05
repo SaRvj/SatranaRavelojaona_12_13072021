@@ -1,4 +1,4 @@
-import "./Header.css"
+import "../../styles/Header.css"
 import Logo from "../../Assets/logoSportSee.png"
 import { Link } from "react-router-dom"
 

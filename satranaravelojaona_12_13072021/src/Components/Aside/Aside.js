@@ -1,4 +1,4 @@
-import "./Aside.css"
+import "../../styles/Aside.css"
 import yoga from "../../Assets/Aside/yoga.png"
 import swim from "../../Assets/Aside/swim.png"
 import bike from "../../Assets/Aside/bike.png"

@@ -1,4 +1,4 @@
-import "./Charts.css"
+import "../../styles/Charts.css"
 import React from "react"
 import PropTypes from "prop-types"
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts"
