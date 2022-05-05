@@ -1,4 +1,4 @@
-import "./HomePage.css"
+import "../../styles/HomePage.css"
 import { Link } from "react-router-dom"
 import Logo from "../../Assets/logoSportSee.png"
 import SwitchButton from "../../Components/SwitchButton/SwitchButton"

@@ -1,4 +1,4 @@
-import "./Dashboard.css"
+import "../../styles/Dashboard.css"
 import { useParams } from "react-router-dom"
 import { useContext } from "react"
 import { fetchSwitch } from "../../Utils/Switch/fetchSwitch"

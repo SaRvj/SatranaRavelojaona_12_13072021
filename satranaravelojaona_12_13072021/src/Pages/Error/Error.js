@@ -1,4 +1,4 @@
-import "./Error.css"
+import "../../styles/Error.css"
 import { Link } from "react-router-dom"
 import Logo from "../../Assets/logoSportSee.png"
 
