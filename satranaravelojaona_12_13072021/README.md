@@ -35,7 +35,7 @@ npm install
 3.	Launch back-end on port 3000 (default port):
 npm run start
 
-#Installing and launching Front-End
+# Installing and launching Front-End
 
 1.	Clone the repository of SportSee front-end:
 git clone https://github.com/SaRvj/SatranaRavelojaona_12_13072021
