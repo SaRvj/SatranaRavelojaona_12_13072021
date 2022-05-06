@@ -1,4 +1,4 @@
-https://forthebadge.com/generator/?pbg=%238FC965&plabel=Language&sbg=%23419B5A&slabel=Js
+https://forthebadge.com/generator/?pbg=%238FC965&plabel=Language&sbg=%23419B5A&slabel=Js https://forthebadge.com/generator/?pbg=%23C13B3A&plabel=Framework&sbg=%23EA4560&slabel=React
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
