@@ -9,6 +9,7 @@ Sportsee is an application for monitoring your physical activity with charts.
 
 # Prerequisites for install
 •	You need Git to clone the repository
+
 •	You need Node (v16.14.0) to run the npm commands
 
 # Dependencies
