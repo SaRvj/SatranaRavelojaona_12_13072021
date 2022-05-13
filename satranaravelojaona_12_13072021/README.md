@@ -15,14 +15,21 @@ Sportsee is an application for monitoring your physical activity with charts.
 # Dependencies
 
 •	React: v18.1.0 (WARNING!!!: React v18.0.0 displays incompatibilies with Recharts using npm therefore we recommend using React v17.0.0 for npm or to use yarn instead)
+
 •	React-router-dom: v6.2.2
 $ npm install react-router-dom
+
 •	Recharts: v2.1.9
+
 •	$ npm install recharts
+
 •	Styled-components: v5.3.3
+
 $ npm install --save styled-components
+
 •	Prop-types: v15.8.1
 $ npm i prop-types
+
 •	Recommended text editor: Visual Studio Code
 
 # Installing and launching Back-End
