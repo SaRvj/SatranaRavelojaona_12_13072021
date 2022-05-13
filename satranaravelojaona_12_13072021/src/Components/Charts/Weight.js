@@ -77,14 +77,14 @@ const Weight = (props) => {
           yAxisId="right"
           dataKey="kilogram"
           name="Poids (kg)"
-          fill="#282D30"
+          fill="#E60000"
           barSize={10}
           radius={[10, 10, 0, 0]}
         />
         <Bar
           dataKey="calories"
           name="Calories brûlées (kCal)"
-          fill="#E60000"
+          fill="#282D30"
           barSize={10}
           radius={[10, 10, 0, 0]}
           minPointSize={86}

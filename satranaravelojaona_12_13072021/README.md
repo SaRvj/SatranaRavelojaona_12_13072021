@@ -21,8 +21,6 @@ $ npm install react-router-dom
 •	$ npm install recharts
 •	Styled-components: v5.3.3
 $ npm install --save styled-components
-•	Axios: v0.26.1
-$ npm install axios
 •	Prop-types: v15.8.1
 $ npm i prop-types
 •	Recommended text editor: Visual Studio Code

@@ -15,7 +15,7 @@ const Kpi = (props) => {
   let scoreData = props.data
   let emptyData = 1 - scoreData
   let pieData = [{ value: scoreData }, { value: emptyData }]
-
+  console.log(props);
   return (
     <ResponsiveContainer
       height={230}
