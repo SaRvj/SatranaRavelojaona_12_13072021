@@ -28,7 +28,7 @@ const ConvertData = (result, url) => {
   return new mainData(
     result.data.id,
     result.data.userInfos,
-    result.data.score,
+    result.data.todayScore ? result.data.todayScore : result.data.score,
     result.data.keyData
   )
 }
